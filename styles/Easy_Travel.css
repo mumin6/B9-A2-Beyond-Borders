@@ -11,13 +11,72 @@ main {
     border: 2px solid green;
 }
 
+/* nav bar style */
+.navigation-bar {
+    display: flex;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.navigation-bar-1 {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 50%;
+
+
+}
+
+.page-link {
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    width: 50%;
+
+    padding: 10px;
+}
+
+.link-1 {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.link-2 {
+    color:  #424247;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+#home {
+    color: #FF5400;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar-1 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.title-1 {
+    color: #FF5400;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
 .explore-your-travel {
     background-image: url('../Images/Group\ 13\ .png');
     height: 100dvh;
     background-size: 100%;
     background-repeat: no-repeat;
     display: block;
-    margin: 140px 130px;
+    margin: 50px 100px;
+    margin-bottom: 20px;
     text-align: center;
     border: 2px solid red;
     border-radius: 16px;
@@ -30,7 +89,7 @@ main {
     font-size: 4rem;
     font-weight: 800;
     padding-top: 40px;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 
 .explore-p {
@@ -40,8 +99,19 @@ main {
     font-weight: 400;
     line-height: 26px;
     width: 676px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 20px auto;
+
+}
+
+.input-0 {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    /* border: 1px solid blueviolet; */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 }
 
 .input-1 {
@@ -55,7 +125,8 @@ main {
     font-weight: 400;
     border: none;
 }
-#button-1{
+
+#button-1 {
     background: #FF5400;
     color: #FFF;
 }
