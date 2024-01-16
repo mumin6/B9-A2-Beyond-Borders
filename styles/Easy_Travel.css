@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
+    max-width: 1350px;
 }
 
 main {
@@ -14,8 +15,9 @@ main {
 /* nav bar style */
 .navigation-bar {
     display: flex;
-    margin: 5px 10px;
+    margin: 10px 80px;
     padding: 10px;
+    max-width: 1360px;
 }
 
 .navigation-bar-1 {
@@ -31,7 +33,6 @@ main {
     justify-content: space-around;
     /* border: 1px solid red; */
     width: 50%;
-
     padding: 10px;
 }
 
@@ -44,7 +45,7 @@ main {
 }
 
 .link-2 {
-    color:  #424247;
+    color: #424247;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 400;
@@ -75,13 +76,10 @@ main {
     background-size: 100%;
     background-repeat: no-repeat;
     display: block;
-    margin: 50px 100px;
-    margin-bottom: 20px;
+    margin: 50px 80px;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 16px;
-    justify-content: center;
-
 }
 
 .explore-h1 {
@@ -126,7 +124,72 @@ main {
     border: none;
 }
 
-#button-1 {
+.button-1 {
     background: #FF5400;
     color: #FFF;
 }
+
+/* our popular tour section */
+.Our-Popular-Tours {
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 1px 80px;
+}
+
+.Our-Popular-Tours-1 {
+    width: 50%;
+    /* border: 1px solid green; */
+    padding: 10px;
+    width: 540px;
+    height: 550px;
+}
+
+.Our-Popular-Tours-2 {
+    width: 50%;
+    /* border: 1px solid green; */
+    /* padding: 20px; */
+    width: 540px;
+    height: 550px;
+    margin: 1px auto;
+    border-radius: 16px;
+
+}
+
+.Our-Popular-Tours-1 h1 {
+    color: #131318;
+    text-align: left;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.Our-Popular-Tours-1 p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.Our-Popular-Tours-1 ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.button-2 {
+    width: 174px;
+    height: 52px;
+    background: #FF5400;
+    color: #FFF;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+
+@media screen and (max-width:600px) {}
