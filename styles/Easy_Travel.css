@@ -549,9 +549,18 @@ footer {
     }
     .transform {
         
-        top-right: -50px;
+        /* top-right: -50px; */
        
     
+    }
+    .foot-1 {
+        display: flex;
+        justify-content: center;
+        margin: 4px 10px;
+    }
+    .last-1 {
+        width:569px;
+        margin: 10px auto;
     }
 
 }
