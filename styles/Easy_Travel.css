@@ -191,5 +191,110 @@ main {
 }
 
 
+#choose-your-destination-1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+#choose-your-destination-2 {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px auto;
+    /* 162.5% */
+}
+
+
+.images-place {
+    /* weight:1000px; */
+    margin: 30px 80px;
+    border: 2px solid red;
+    /* display:grid; */
+}
+
+.why {
+    text-align: center;
+}
+
+.why-1 {
+    width: 643px;
+    margin: 10px auto;
+}
+
+.choose-us {
+    display: flex;
+    margin: 20px 80px;
+}
+
+.choose-us-1 {
+    width: 50%;
+
+}
+
+.h1-class {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.pc-class {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+}
+
+.choose-us-2 {
+    width: 50%;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    background-color: rgba(19, 19, 24, 0.05);
+    flex-direction: column;
+}
+
+.foot-1 {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.last-1 {
+    width: 769px;
+    margin: 10px auto;
+}
+
+.social-links {
+    text-align: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+.h-line {
+    width: 872px;
+    height: 1px;
+    margin: 0px auto;
+}
+
+#right {
+    text-align: center;
+    margin: 20px auto;
+}
 
 @media screen and (max-width:600px) {}
