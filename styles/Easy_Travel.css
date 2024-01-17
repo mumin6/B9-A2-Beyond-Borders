@@ -9,7 +9,7 @@
 
 main {
     align-items: center;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 /* nav bar style */
@@ -329,7 +329,7 @@ main {
 
 .news {
     display: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 3%;
 }
 
@@ -369,7 +369,7 @@ main {
 
 
 input[type=submit] {
-   
+
     width: 100%;
     background-color: #FF5400;
     color: white;
@@ -379,17 +379,17 @@ input[type=submit] {
     font-size: 1.4rem;
     font-weight: 800;
     cursor: pointer;
-  }
+}
 
 .last-img {
     display: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .transform {
     display: block;
     height: 60px;
-    weight:10px;
+    weight: 10px;
     background-color: #FF5400;
     position: relative;
     top-right: -500px;
@@ -448,31 +448,110 @@ footer {
     margin: 20px auto;
 }
 
-/* @media screen and (max-width:600px) {
-    *{
+@media screen and (max-width:600px) {
+    * {
         max-width: 600px;
     }
-    .navigation-bar{
+
+    .navigation-bar {
         display: none;
-    } 
-    .explore-your-travel{
-        height:700px;
-         margin: 5px 10px;
+    }
+
+    .explore-your-travel {
+        height: 700px;
+        margin: 5px 10px;
+        width:575px;
 
     }
-    .page-link{
+
+    .page-link {
         flex-direction: column;
     }
-    .explore-h1{
+
+    .explore-h1 {
         padding: 5px;
         font-size: 2rem;
     }
-    .explore-p{
+
+    .explore-p {
         width: 400px;
     }
-    .input-1{
-        display: flex;
+
+    .input-0 {
         flex-direction: column;
-        height:100px;
     }
-} */
+
+    .input-1 {
+        width: 500px;
+    }
+    .Our-Popular-Tours{
+     flex-direction: column;
+     margin: 1px 10px;
+    }
+    .Our-Popular-Tours-1 {
+        width: 100%;
+    }
+
+    .Our-Popular-Tours-2 {
+        width: 100%;
+       
+    }
+    .images-place img{
+        width: 100%;
+
+    }
+    .why-1 {
+        width: 543px;
+        margin: 1px auto;
+    }
+    .choose-us-1 {
+         width: 100%;
+    }
+    .choose-us-1, .choose-us-2 {
+        margin-top:5px;
+    }
+    .choose-us {
+        flex-direction: column;
+        margin:2px 10px;
+    }
+    .last-section {
+        margin: 3px 10px;
+    }
+    .place-to-lost{
+        flex-direction: column;
+    }
+    .simple{
+        width: 100%;
+    }
+    .simple-1 {
+        display: 100%;
+        width: 550px;
+        
+    }
+    .deals {
+        flex-direction: column;
+    }
+    
+    .news {
+        display: 100%;
+        /* border: 1px solid red; */
+        padding: 3%;
+    }
+    .form input {
+        margin-top: 3%;
+        width: 553px;
+        height: 52px;
+       
+    }
+    .last-img {
+        display: 100%;
+        margin: 1px 10px;
+    }
+    .transform {
+        
+        top-right: -50px;
+       
+    
+    }
+
+}
